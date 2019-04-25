@@ -1,0 +1,32 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="NewApi"
+    >
+    <aapt:attr name="android:drawable">
+
+
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            android:width="126dp"
+            android:height="126dp"
+            android:viewportWidth="125.6"
+            android:viewportHeight="125.6">
+            <group
+                android:name="dice"
+                android:pivotX="63"
+                android:pivotY="63">
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M96.4,109.7H29.2c-6.6,0 -12,-5.4 -12,-12V26c0,-6.6 5.4,-12 12,-12h67.2c6.6,0 12,5.4 12,12v71.7C108.4,104.3 103,109.7 96.4,109.7z"
+        android:strokeColor="?attr/diceColor" android:strokeWidth="1"/>
+    <path android:fillColor="?attr/diceColor"
+        android:pathData="M62.8,63.4m-7.3,0a7.3,7.3 0,1 1,14.6 0a7.3,7.3 0,1 1,-14.6 0"
+        android:strokeColor="?attr/diceColor" android:strokeWidth="1"/>
+            </group>
+        </vector>
+    </aapt:attr>
+
+    <target
+        android:name="dice"
+        android:animation="@anim/rotation" />
+
+</animated-vector>

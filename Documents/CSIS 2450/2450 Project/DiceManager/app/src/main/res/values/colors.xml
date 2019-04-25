@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#c5efff</color>
+    <color name="colorPrimaryDark">#627780</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textColorPrimaryLight">#000000</color>
+    <color name="textColorSecondaryLight">#2aac4b</color>
+    <color name="panelColorBackgroundLight">#b1d7e6</color>
+    <color name="dividerLight">#313c40</color>
+    <color name="windowBackgroundLight">#F4F4F6</color>
+
+
+    <color name="darkColorPrimary">#1e2756</color>
+    <color name="darkColorPrimaryDark">#141831</color>
+    <color name="darkColorAccent">#2aac4b</color>
+    <color name="textColorPrimaryDark">#277714</color>
+    <color name="textColorSecondaryDark">#277714</color>
+    <color name="panelColorBackgroundDark">#28292e</color>
+    <color name="dividerDark">#F2F2F3</color>
+    <color name="windowBackgroundDark">#33343B</color>
+
+
+    <color name="blue">#4286f4</color>
+    <color name="red">#f70000</color>
+    <color name="yellow">#fff600</color>
+    <color name="green">#5dff00</color>
+    <color name="purple">#d20aff</color>
+    <color name="pink">#ff09cd</color>
+    <color name="White">#ffffff</color>
+    <color name="orange">#FFA500</color>
+
+
+    <color name="tint">#0028292e</color>
+
+
+</resources>

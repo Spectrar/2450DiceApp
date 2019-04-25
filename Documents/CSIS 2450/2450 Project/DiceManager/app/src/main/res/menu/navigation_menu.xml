@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Drawer side menu-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/addDice"
+            android:icon="@drawable/ic_dice"
+            android:title="Edit:" />
+    </group>
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/presets"
+            android:icon="@drawable/ic_presets"
+            android:title="Presets" />
+    </group>
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/otherGames"
+            android:icon="@drawable/ic_other_games"
+            android:title="Other Games" />
+    </group>
+
+</menu>

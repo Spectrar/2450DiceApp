@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PresetActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/minus12Sided"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginLeft="14dp"
+                android:background="@drawable/ic_remove_black_24dp"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="@+id/textView12Sided"
+                app:layout_constraintStart_toEndOf="@+id/textView12Sided"
+                app:layout_constraintTop_toTopOf="@+id/textView12Sided" />
+
+            <ImageButton
+                android:id="@+id/minus4Sided"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginLeft="14dp"
+                android:background="@drawable/ic_remove_black_24dp"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="@+id/textView4Sided"
+                app:layout_constraintStart_toEndOf="@+id/textView4Sided"
+                app:layout_constraintTop_toTopOf="@+id/textView4Sided" />
+
+            <ImageButton
+                android:id="@+id/plus8Sided"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:background="@drawable/ic_add_black_24dp"
+                app:layout_constraintBottom_toBottomOf="@+id/minus8Sided"
+                app:layout_constraintStart_toEndOf="@+id/minus8Sided"
+                app:layout_constraintTop_toTopOf="@+id/minus8Sided" />
+
+            <TextView
+                android:id="@+id/numberText10Sided"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="0"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                app:layout_constraintStart_toEndOf="@+id/minus10Sided"
+                app:layout_constraintTop_toTopOf="@+id/minus10Sided" />
+
+            <ImageButton
+                android:id="@+id/plus4Sided"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:background="@drawable/ic_add_black_24dp"
+                app:layout_constraintBottom_toBottomOf="@+id/minus4Sided"
+                app:layout_constraintStart_toEndOf="@+id/minus4Sided"
+                app:layout_constraintTop_toTopOf="@+id/minus4Sided" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="36dp"
+                android:text="@string/background"
+                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+                app:layout_constraintBottom_toTopOf="@+id/textView4Sided"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            <TextView
+                android:id="@+id/textView20Sided"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="64dp"
+                android:layout_marginLeft="64dp"
+                android:layout_marginBottom="43dp"
+                android:text="@string/_20_sided"
+                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+                app:layout_constraintBottom_toTopOf="@+id/textView4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView12Sided" />
+
+            <ImageButton
+                android:id="@+id/plus12Sided"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:background="@drawable/ic_add_black_24dp"
+                app:layout_constraintBottom_toBottomOf="@+id/minus12Sided"
+                app:layout_constraintStart_toEndOf="@+id/minus12Sided"
+                app:layout_constraintTop_toTopOf="@+id/minus12Sided" />
+
+            <ImageButton
+                android:id="@+id/minus6Sided"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginLeft="14dp"
+                android:background="@drawable/ic_remove_black_24dp"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="@+id/textView6Sided"
+                app:layout_constraintStart_toEndOf="@+id/textView6Sided"
+                app:layout_constraintTop_toTopOf="@+id/textView6Sided" />
+
+            <ImageButton
+                android:id="@+id/minus8Sided"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginLeft="14dp"
+                android:background="@drawable/ic_remove_black_24dp"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="@+id/textView8Sided"
+                app:layout_constraintStart_toEndOf="@+id/textView8Sided"
+                app:layout_constraintTop_toTopOf="@+id/textView8Sided" />
+
+            <TextView
+                android:id="@+id/textView4Sided"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="76dp"
+                android:layout_marginLeft="76dp"
+                android:layout_marginBottom="29dp"
+                android:text="@string/_4_sided"
+                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+                app:layout_constraintBottom_toTopOf="@+id/textView6Sided"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+            <TextView
+                android:id="@+id/textView6Sided"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="76dp"
+                android:layout_marginLeft="76dp"
+                android:layout_marginBottom="40dp"
+                android:text="@string/_6_sided"
+                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+                app:layout_constraintBottom_toTopOf="@+id/textView8Sided"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4Sided" />
+
+            <EditText
+                android:id="@+id/nameTextField"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="91dp"
+                android:layout_marginRight="91dp"
+                android:layout_marginBottom="574dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="My Dice"
+                app:layout_constraintBaseline_toBaselineOf="@id/textView2"
+                app:layout_constraintBottom_toTopOf="@+id/saveButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.49" />
+
+            <Spinner
+                android:id="@+id/backgroundSpinner"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="44dp"
+                android:layout_marginRight="44dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown"
+                app:layout_constraintBottom_toBottomOf="@+id/textView3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView3"
+                app:layout_constraintTop_toTopOf="@+id/textView3" />
+
+            <TextView
+                android:id="@+id/numberText20Sided"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="0"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                app:layout_constraintStart_toEndOf="@+id/minus20Sided"
+                app:layout_constraintTop_toTopOf="@+id/minus20Sided" />
+
+            <ImageButton
+                android:id="@+id/plus20Sided"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:background="@drawable/ic_add_black_24dp"
+                app:layout_constraintBottom_toBottomOf="@+id/minus20Sided"
+                app:layout_constraintStart_toEndOf="@+id/minus20Sided"
+                app:layout_constraintTop_toTopOf="@+id/minus20Sided" />
+
+            <TextView
+                android:id="@+id/numberText8Sided"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="0"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                app:layout_constraintStart_toEndOf="@+id/minus8Sided"
+                app:layout_constraintTop_toTopOf="@+id/minus8Sided" />
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="115dp"
+                android:layout_marginLeft="115dp"
+                android:layout_marginEnd="115dp"
+                android:layout_marginRight="115dp"
+                android:layout_marginBottom="75dp"
+                android:text="@string/save"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageButton
+                android:id="@+id/plus10Sided"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:background="@drawable/ic_add_black_24dp"
+                app:layout_constraintBottom_toBottomOf="@+id/minus10Sided"
+                app:layout_constraintStart_toEndOf="@+id/minus10Sided"
+                app:layout_constraintTop_toTopOf="@+id/minus10Sided" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="38dp"
+                android:text="@string/preset_name"
+                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+                app:layout_constraintBottom_toTopOf="@+id/textView3"
+                app:layout_constraintEnd_toStartOf="@+id/nameTextField"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/plus6Sided"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:background="@drawable/ic_add_black_24dp"
+                app:layout_constraintBottom_toBottomOf="@+id/minus6Sided"
+                app:layout_constraintStart_toEndOf="@+id/minus6Sided"
+                app:layout_constraintTop_toTopOf="@+id/minus6Sided" />
+
+            <TextView
+                android:id="@+id/numberText4Sided"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="0"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                app:layout_constraintStart_toEndOf="@+id/minus4Sided"
+                app:layout_constraintTop_toTopOf="@+id/minus4Sided" />
+
+            <TextView
+                android:id="@+id/numberText12Sided"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="0"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                app:layout_constraintStart_toEndOf="@+id/minus12Sided"
+                app:layout_constraintTop_toTopOf="@+id/minus12Sided" />
+
+            <TextView
+                android:id="@+id/textView8Sided"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="76dp"
+                android:layout_marginLeft="76dp"
+                android:layout_marginBottom="38dp"
+                android:text="@string/_8_sided"
+                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+                app:layout_constraintBottom_toTopOf="@+id/textView10Sided"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6Sided" />
+
+            <ImageButton
+                android:id="@+id/minus20Sided"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginLeft="14dp"
+                android:background="@drawable/ic_remove_black_24dp"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="@+id/textView20Sided"
+                app:layout_constraintStart_toEndOf="@+id/textView20Sided"
+                app:layout_constraintTop_toTopOf="@+id/textView20Sided" />
+
+            <TextView
+                android:id="@+id/textView10Sided"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="64dp"
+                android:layout_marginLeft="64dp"
+                android:layout_marginBottom="36dp"
+                android:text="@string/_10_sided"
+                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+                app:layout_constraintBottom_toTopOf="@+id/textView12Sided"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView8Sided" />
+
+            <ImageButton
+                android:id="@+id/minus10Sided"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginLeft="14dp"
+                android:background="@drawable/ic_remove_black_24dp"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="@+id/textView10Sided"
+                app:layout_constraintStart_toEndOf="@+id/textView10Sided"
+                app:layout_constraintTop_toTopOf="@+id/textView10Sided" />
+
+            <Spinner
+                android:id="@+id/diceColorSpinner"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="44dp"
+                android:layout_marginRight="44dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown"
+                app:layout_constraintBottom_toBottomOf="@+id/textView4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView4"
+                app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="52dp"
+                android:layout_marginLeft="52dp"
+                android:layout_marginBottom="148dp"
+                android:text="@string/dice_color"
+                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/diceColorSpinner"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView20Sided" />
+
+            <TextView
+                android:id="@+id/numberText6Sided"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="0"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                app:layout_constraintStart_toEndOf="@+id/minus6Sided"
+                app:layout_constraintTop_toTopOf="@+id/minus6Sided" />
+
+            <TextView
+                android:id="@+id/textView12Sided"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="64dp"
+                android:layout_marginLeft="64dp"
+                android:layout_marginBottom="41dp"
+                android:text="@string/_12_sided"
+                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+                app:layout_constraintBottom_toTopOf="@+id/textView20Sided"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView10Sided" />
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

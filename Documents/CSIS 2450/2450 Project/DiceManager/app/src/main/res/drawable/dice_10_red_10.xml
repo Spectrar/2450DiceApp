@@ -1,0 +1,36 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="NewApi"
+    >
+    <aapt:attr name="android:drawable">
+
+
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            android:width="126dp"
+            android:height="126dp"
+            android:viewportWidth="125.6"
+            android:viewportHeight="125.6">
+            <group
+                android:name="dice"
+                android:pivotX="63"
+                android:pivotY="63">
+
+    <path
+        android:fillColor="?attr/diceColor"
+        android:pathData="M62.7,9.5l51,53.9l-50.7,52.8L13.1,63.4L62.7,9.5z" />
+    <path
+        android:fillColor="#FF4126"
+        android:pathData="M87.3,63.2L64.9,73.6l0,37.5l43.2-44.8l-17.8-4.5L87.3,63.2z M35.5,61.8l-17.3,4.4L61,111.1V73.6L38.5,63.2 L35.5,61.8z M40.7,36.5L57,19.1L36.1,55.8L35,57.8l-18.8,4.9l22.2-23.8L40.7,36.5z M97.7,49.8l12,12.8L91,57.9l-1.2-2.2L68.9,19 L86,37.4L97.7,49.8z M62.9,17.1L38.7,59l24.2,11.3L87.2,59L62.9,17.1z" />
+    <path
+        android:fillColor="?attr/diceColor"
+        android:pathData="M69.5,50.3c0,1.4-0.1,2.7-0.3,3.7c-0.2,1-0.5,2-1,2.8c-0.6,1-1.4,1.8-2.4,2.4c-1,0.6-2.1,0.8-3.2,0.8 c-1.4,0-2.6-0.4-3.7-1.1s-1.9-1.8-2.5-3.1c-0.3-0.7-0.5-1.5-0.6-2.4s-0.2-1.8-0.2-2.9c0-1.3,0.1-2.5,0.2-3.6c0.1-1.1,0.4-2,0.7-2.7 c0.5-1.3,1.3-2.2,2.3-2.9c1-0.7,2.2-1,3.6-1c0.9,0,1.8,0.1,2.5,0.4c0.8,0.3,1.4,0.7,2,1.3c0.6,0.6,1.1,1.3,1.5,2.1 C69.1,45.6,69.5,47.6,69.5,50.3z M65.8,50c0-1.6-0.1-2.9-0.3-3.9c-0.2-1-0.5-1.8-1-2.3C64,43.2,63.3,43,62.5,43 c-1.2,0-2,0.6-2.5,1.8c-0.5,1.2-0.7,3-0.7,5.4c0,1.7,0.1,3,0.3,4.1c0.2,1.1,0.5,1.9,1,2.4s1.1,0.8,1.9,0.8c0.8,0,1.5-0.3,1.9-0.8 s0.8-1.4,1-2.4C65.7,53.1,65.8,51.7,65.8,50z" />
+            </group>
+        </vector>
+    </aapt:attr>
+
+    <target
+        android:name="dice"
+        android:animation="@anim/rotation" />
+
+</animated-vector>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ActivityTheme.Primary.Base.Light" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/textColorPrimaryLight</item>
+        <item name="android:textColorSecondary">@color/textColorSecondaryLight</item>
+        <item name="android:panelColorBackground">@color/panelColorBackgroundLight</item>
+        <item name="android:divider">@color/dividerLight</item>
+        <item name="android:colorButtonNormal">@color/panelColorBackgroundLight</item>
+    </style>
+</resources>

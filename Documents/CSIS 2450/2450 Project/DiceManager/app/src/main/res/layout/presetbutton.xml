@@ -1,0 +1,6 @@
+<!--Button to be added to all presets window as needed-->
+<Button android:id="@+id/button"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:text="Button"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

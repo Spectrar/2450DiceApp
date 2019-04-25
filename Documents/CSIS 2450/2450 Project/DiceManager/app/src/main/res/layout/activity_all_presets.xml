@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Screen that displays all crently saved presets-->
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllPresetsActivity">
+
+    <Button
+        android:id="@+id/newPreset"
+        android:layout_width="266dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginRight="73dp"
+        android:text="New Preset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newPreset">
+        <!--Table that holds every row and button layout-->
+        <TableLayout
+            android:id="@+id/presettable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+                <!--new preset button-->
+            </TableRow>
+            <!--additional rows and buttons are added dynamically based on number of presets saved-->
+
+        </TableLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

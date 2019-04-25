@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Dice Manager</string>
+    <string name="Open">Open navigation drawer</string>
+    <string name="Close">Close navigation drawer</string>
+    <string name="Settings">Settings</string>
+    <color name="white">#FFFFFF</color>
+    <string name="title_activity_my_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dice_color">Dice Color:</string>
+    <string name="_20_sided">20 Sided:</string>
+    <string name="_12_sided">12 Sided:</string>
+    <string name="_10_sided">10 Sided:</string>
+    <string name="_8_sided">8 Sided:</string>
+    <string name="_6_sided">6 Sided:</string>
+    <string name="preset_name">Preset Name:</string>
+    <string name="background">Background:</string>
+    <string name="_4_sided">4 Sided:</string>
+    <string name="save">Save</string>
+    <string name="done">Done</string>
+    <string name="dungeons_dragons"><![CDATA[Dungeons & Dragons]]></string>
+</resources>

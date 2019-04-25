@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OtherGamesActivity">
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Popular Games"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/yahtzeeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="Yatzze" />
+
+        <Button
+            android:id="@+id/crapsBtn"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="Craps" />
+
+        <Button
+            android:id="@+id/farkleBtn"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="Farkle" />
+
+        <Button
+            android:id="@+id/dndBtn"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="@string/dungeons_dragons" />
+
+        <Button
+            android:id="@+id/bunkoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="Bunko" />
+
+        <Button
+            android:id="@+id/tenziBtn"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="Tenzi" />
+    </LinearLayout>
+</RelativeLayout>
